@@ -1,0 +1,19 @@
+{
+	"databases": [
+		{
+			"host": "127.0.0.1",
+			"database": "mypro_eshop",
+			"username": "root",
+			"password": ""
+		}
+	],
+	"constants": [
+		{
+			"PORTAL": 	"http://localhost/Intelligent-Ecommerce/"
+		}
+	],
+	"miscs": [
+		"asset_loader.php"
+	],
+	"headers": []
+}

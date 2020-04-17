@@ -1,0 +1,100 @@
+.mt-0{
+    margin-top: 0;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mx-1{
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.f-s-8{
+    font-size: 8pt;
+}
+
+.table > thead > tr > th{
+    padding-right: 20px;
+}
+
+.table > tbody > tr.black > td, 
+.table > tbody > tr.black > th, 
+.table > tbody > tr > td.black, 
+.table > tbody > tr > th.black, 
+.table > tfoot > tr.black > td, 
+.table > tfoot > tr.black > th, 
+.table > tfoot > tr > td.black, 
+.table > tfoot > tr > th.black, 
+.table > thead > tr.black > td, 
+.table > thead > tr.black > th, 
+.table > thead > tr > td.black, 
+.table > thead > tr > th.black {
+    color: #fff;
+}
+
+.table > tbody > tr.black > td, 
+.table > tbody > tr.black > th, 
+.table > tbody > tr > td.black, 
+.table > tbody > tr > th.black, 
+.table > tfoot > tr.black > td, 
+.table > tfoot > tr.black > th, 
+.table > tfoot > tr > td.black, 
+.table > tfoot > tr > th.black, 
+.table > thead > tr.black > td, 
+.table > thead > tr.black > th, 
+.table > thead > tr > td.black, 
+.table > thead > tr > th.black {
+    background-color: black;
+}
+
+div.bordered{
+    border: 1px solid rgba(0,0,0, 0.05);
+}
+
+div.border-bottom{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.select2-container{
+    z-index: 1060;
+}
+
+.daterangepicker {
+    z-index: 1500;
+}
+
+.typeahead{
+    z-index: 1600;
+}
+
+#toast-container{
+    z-index: 1700 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
