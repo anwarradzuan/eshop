@@ -9,6 +9,6 @@
 define("HFA", true);
 require_once(dirname(dirname(__DIR__)) . "/HPFv3.2/init.php");
 
-$app = new App("Intelligent Ecommerce-Business", "business");
+$app = new App("Eshop-Public", "public");
 $app->run();
 ?>

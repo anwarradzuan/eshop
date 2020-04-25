@@ -3,13 +3,13 @@
 		{
 			"host": "127.0.0.1",
 			"database": "mypro_eshop",
-			"username": "root",
-			"password": ""
+			"username": "mypro_anwar",
+			"password": "#anwar123#"
 		}
 	],
 	"constants": [
 		{
-			"PORTAL": 	"http://localhost/Intelligent-Ecommerce/business/"
+			"PORTAL": 	"https://www.mypro-intelligent.com/business/"
 			
 		}
 	],

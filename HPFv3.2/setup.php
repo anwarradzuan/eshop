@@ -21,11 +21,10 @@ $encrypt = Encrypter::AESEncrypt($ipdate, $pass, $iv);
 $input = base64_encode($iv) . ":" . base64_encode($encrypt);
 define("TOKEN_SECURE", $input);
 
-define("PORTAL_PUBLIC", "http://localhost/Intelligent-Ecommerce/");
-define("PORTAL_CUSTOMER", "http://localhost/Intelligent-Ecommerce/customer/");
-define("PORTAL_ADMIN", "http://localhost/Intelligent-Ecommerce/dmin/");
-define("PORTAL_BUSINESS", "http://localhost/Intelligent-Ecommerce/business/");
-define("PORTAL_API", "http://localhost/Intelligent-Ecommerce/api/");
+define("PORTAL_PUBLIC", "https://www.mypro-intelligent.com/");
+define("PORTAL_MASTER", "https://www.mypro-intelligent.com/master/");
+define("PORTAL_ADMIN", "https://www.mypro-intelligent.com/admin/");
+define("PORTAL_API", "https://www.mypro-intelligent.com/api/");
 
 #IPStack Setup
 define("IPSTACK", "cd7c9139c0be306232a864030bea9814");
@@ -34,13 +33,13 @@ define("UNIQUE", hash("sha256", time() . F::UniqKey() . $_SERVER["REMOTE_ADDR"] 
 
 //header('Cache-Control: no-cache');
 
-header('X-Frame-Options: SAMEORIGIN');
+//header('X-Frame-Options: SAMEORIGIN');
 
-header("X-Content-Type-Options: nosniff");
+//header("X-Content-Type-Options: nosniff");
 
-header("X-XSS-Protection: 1; mode=block");
+//header("X-XSS-Protection: 1; mode=block");
 
-header("Strict-Transport-Security: max-age=31536000");
+//header("Strict-Transport-Security: max-age=31536000");
 
 //header("Set-Cookie: SameSite=Lax");
 //header("Content-Security-Policy: default-src * 'self' https://myiecommerce.intelpro.com.my/*; style-src 'self' 'unsafe-inline' https://myiecommerce.intelpro.com.my/ https://cdnjs.cloudflare.com/ https://fonts.googleapis.com/ https://maxcdn.bootstrapcdn.com/ https://cdn.datatables.net/; script-src * 'self' 'unsafe-inline' 'unsafe-eval' https://myiecommerce.intelpro.com.my/ https://www.paypal.com/ https://cdn.datatables.net/ https://cdnjs.cloudflare.com/; img-src 'self' data: https://myiecommerce.intelpro.com.my/;");

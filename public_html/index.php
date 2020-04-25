@@ -12,6 +12,6 @@ require_once(dirname(__DIR__) . "/HPFv3.2/init.php");
 
 
 
-$app = new App("Intelligent Ecommerce-Public", "public");
+$app = new App("Eshop-Public", "public");
 $app->run();
 ?>

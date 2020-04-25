@@ -2,14 +2,14 @@
 	"databases": [
 		{
 			"host": "127.0.0.1",
-			"database": "mypro_eshop",
+			"database": "eshop",
 			"username": "root",
 			"password": ""
 		}
 	],
 	"constants": [
 		{
-			"PORTAL": 	"http://localhost/Intelligent-Ecommerce/"
+			"PORTAL": 	"https://www.mypro-intelligent.com/"
 		}
 	],
 	"miscs": [

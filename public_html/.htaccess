@@ -8,10 +8,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
 RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP:X-Forwarded-SSL} !on
-RewriteCond %{HTTP_HOST} ^www\.mypro\-intelligent\.com$
-RewriteRule ^/?$ "https\:\/\/www\.mypro\-intelligent\.com\/" [R=301,L]
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php72” package as the default “PHP” programming language.
