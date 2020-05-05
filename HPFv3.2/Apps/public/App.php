@@ -19,21 +19,33 @@ if($pagex == "index"){
 
 $page =  new Page();
 $page->addTopTag('
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-'
-);
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+');
 
 $page->addBottomTag('
 	
 ');
 
 switch($pagex){
+	
+	case "login" : 
+		
+		$page->title = APP_NAME;
+		
+		$page->title = "Login" . " - " . APP_NAME;
+		$page->loadPage("pages/login");
+		
+		$page->render();
+	
+	break;
 		
 	default:
 		$page->title = APP_NAME;
 		
-		$page->title = $m->m_name . " - " . APP_NAME;
-		$page->loadPage($m->m_route);
+		$page->title = "Home" . " - " . APP_NAME;
+		$page->loadPage("pages/home");
 		
 		$page->render();
 	break;
